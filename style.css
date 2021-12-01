@@ -136,7 +136,7 @@ body{
 {
     display: flex;
     flex-direction: column;
-    background-color: #7D726E;
+    background-color: #5E5653;
     color: white;
 }
 .quote > p
@@ -168,7 +168,7 @@ body{
 {
     display: flex;
     flex-direction: column;
-    background-color: #a3948e;
+    background-color: #5E5653;
     align-items: center;
     padding: 100px;
 }
