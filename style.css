@@ -43,7 +43,57 @@ body{
     padding: 0 10px 5px 10px;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 /* Hero */
+
+.hero
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #5E5653;
+}
+
+.hero-text
+{
+    display: inline-flex;
+    flex-direction: column;
+    inline-size: 400px;
+    text-align: left;
+    margin-right: 300px;
+    
+}
+
+.hero-text > h1
+{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-text > p
+{
+    margin-top: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text > button
+{
+    margin-top: -10px;
+    background-color: #cf714e;
+    border-style: solid;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.hero-img > img
+{
+    margin: 20px;
+    height: 500px;
+}
