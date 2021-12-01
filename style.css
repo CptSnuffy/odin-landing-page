@@ -124,7 +124,7 @@ body{
 
 .content-inner > div > img
 {
-    border: 2px brown solid;
+    border: 2px #3D3836 solid;
     border-radius: 10px;
     max-height: 250px;
     max-width: 250px;
