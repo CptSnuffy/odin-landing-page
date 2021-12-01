@@ -1,7 +1,7 @@
-*
+/* *
 {
     border: 1px red solid;
-}
+} */
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -20,7 +20,7 @@ body{
 /* Nav bar */
 .nav-bar
 {
-    background-color: #5E5653; 
+    background-color: #3D3836; 
     display: flex;
     padding: 20px 0 20px 100px;
     justify-content: space-between;
@@ -54,7 +54,7 @@ body{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    background-color: #5E5653;
+    background-color: #3D3836;
 }
 
 .hero-text
@@ -96,4 +96,117 @@ body{
 {
     margin: 20px;
     height: 500px;
+}
+
+.content{
+    background-color: #5E5653;
+    color:  white;
+    display: flex;
+    flex-flow: column;
+    align-items: center
+}
+.content-inner
+{
+    display: inline-flex;
+    inline-size: 800px;
+    justify-content: center;
+}
+
+.content-inner > div
+{
+    margin: 10px;
+}
+
+.content-inner > div > p
+{
+    text-align: center;
+}
+
+.content-inner > div > img
+{
+    border: 2px brown solid;
+    border-radius: 10px;
+    max-height: 250px;
+    max-width: 250px;
+}
+
+/* Quote */
+
+.quote
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #7D726E;
+    color: white;
+}
+.quote > p
+{
+    display: inline-flex;
+    align-self: center;
+    inline-size: 655px;
+    text-align: left;
+    font-style: italic;
+    font-size: 36px
+}
+
+.quote > b
+{
+    padding-left: 1000px;
+    margin-top: -30px;
+    padding-bottom: 50px;
+    position: relative;
+    width: 300px;
+    display: flex;
+    justify-content: right;
+    font-size: 22px;
+}
+
+
+/* Action */ 
+
+.action
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #a3948e;
+    align-items: center;
+    padding: 100px;
+}
+
+.action > div
+{
+    background-color: #e86f3f;
+    padding: 10px 100px 10px 200px;
+    border-radius: 15px;
+}
+
+.action > div > h1
+{
+    text-align: left;
+    color: white;
+}
+
+.action > div > p
+{
+    margin-top: -15px;
+    text-align: left;
+    color: white;
+}
+
+.action > div > button
+{
+    background-color: #e86f3f;
+    color: white;
+    margin-left: 500px;
+    border: 2px white solid;
+    border-radius: 5px;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    background-color: #3D3836;
+    color: white;
+    padding: 10px
 }
